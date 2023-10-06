@@ -1,21 +1,27 @@
+import { Navbar } from "../Navbar/Navbar"
 
 
 export const Header = () => {
     return (
-        <div className="d-flex">
-            <div className="d-column">
-                <h2>Muito mais <h2>que uma agenda!</h2></h2>
-                <p>A mais completa plataforma de gestão de negócios para clínicas veterinárias</p>
-
-                <div className="d-flex">
-                    <button className="btn" style={{ backgroundColor: '#FF6D00' }}>Começar Agora</button>
-                    <button className="btn" style={{ backgroundColor: '#F4F4F4' }}>
-                        <p>Ver Vídeo</p>
-                        <img src="https://qria-tech.s3.amazonaws.com/Video.svg" alt="VideoButton" />
-                    </button>
+        <div className="">
+            <Navbar />
+            <div className="container d-md-flex flex-column justify-content-center pt-3">
+                <div className="d-md-flex align-items-center">
+                    <div className="">
+                        <p className="ff-extraBold fs-1 text-orange">Muito mais <p>que uma agenda!</p></p>
+                        <p className="ff-regular fs-6 text-gray">A mais completa plataforma de gestão de negócios
+                            para clínicas veterinárias.</p>
+                        <button className="radius-39">Começar agora</button>
+                        <button className="radius-39">Ver Vídeo</button>
+                    </div>
+                    <div className="">
+                        <img className="img-fluid" src="https://qria-tech.s3.amazonaws.com/MoreDraw.svg" alt="" />
+                    </div>
                 </div>
             </div>
-            <img src="https://qria-tech.s3.amazonaws.com/MoreDraw.svg" alt="" />
+
+
+
         </div>
     )
 }

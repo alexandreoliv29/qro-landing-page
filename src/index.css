@@ -1,10 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
-.btn {
-    color: #FFF;
-    border-radius: 39;
+.text-orange {
+    color: #FF6D00 !important;
+}
+
+.text-black {
+    color: #242331 !important;
+}
+
+.text-gray {
+    color: #797979 !important;
+}
+
+.ff-regular {
+    font-family: 'Nunito';
+    font-weight: 400
+}
+
+.ff-medium {
+    font-family: 'Nunito';
+    font-weight: 500
+}
+
+.ff-semiBold {
+    font-family: 'Nunito';
+    font-weight: 600
+}
+
+.ff-bold {
+    font-family: 'Nunito';
+    font-weight: 700
+}
+
+.ff-extraBold {
+    font-family: 'Nunito';
+    font-weight: 800
+}
+
+.radius-39 {
+    border-radius: 39px;
+}
+
+.background-header {
+    background-image: url(https://qria-tech.s3.amazonaws.com/BackgroundOrange.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-light-orange {
+    background-color: #FFB47C;
+}
+
+.bg-orange {
+    background-color: #FF6D00;
+}
+
+.bg-purple {
+    background-color: #6850FF;
+}
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    left: 40;
+    right: 0;
+    text-align: center;
+}
+
+.background-feedback {
+    background-image: url(https://qria-tech.s3.amazonaws.com/FeedbackBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -1,14 +1,18 @@
 import './App.css'
+import { Feedback } from './components/Feedback/Feedback'
 import { Header } from './components/Header/Header'
+import { Management } from './components/Management/Management'
+import { Powerful } from './components/Powerful/Powerful'
 
 function App() {
 
   return (
-    <div className="App" style={{ background: 'url("https://qria-tech.s3.amazonaws.com/BackgroundOrange.svg")' }}>
-      <div className='container'>
-        <Header />
-      </div>
-    </div>
+    <>
+      <Header />
+      <Management />
+      <Powerful />
+      <Feedback />
+    </>
   )
 }
 
