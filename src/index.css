@@ -45,12 +45,7 @@ body {
     border-radius: 39px;
 }
 
-.background-header {
-    background-image: url(https://qria-tech.s3.amazonaws.com/BackgroundOrange.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 .bg-light-orange {
     background-color: #FFB47C;
@@ -72,9 +67,24 @@ body {
     text-align: center;
 }
 
+
 .background-feedback {
     background-image: url(https://qria-tech.s3.amazonaws.com/FeedbackBackground.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 767px) {
+    .background-header {
+        background-image: url(https://qria-tech.s3.amazonaws.com/backgroundTest.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+button {
+    height: 45px;
+    width: 200px;
 }

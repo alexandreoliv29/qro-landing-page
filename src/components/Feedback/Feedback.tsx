@@ -2,7 +2,7 @@
 
 export const Feedback = () => {
     return (
-        <div className="background-feedback pb-5 mb-5">
+        <div className="background-feedback pb-5">
             <div className="container align-items-center d-flex flex-column justify-content-center p-3">
                 <button className="radius-39 bg-purple text-white ff-bold fs-6 border-0">Testimonial</button>
                 <p className="ff-extraBold text-white mt-3">Trusted by millions of creators.</p>
@@ -14,14 +14,7 @@ export const Feedback = () => {
                     <p className="ff-bold text-white fs-6 text-center mt-3">James Toriff</p>
                     <p className="ff-semiBold text-white fs-6 text-center">Developer</p>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+                
             </div>
         </div>
     )

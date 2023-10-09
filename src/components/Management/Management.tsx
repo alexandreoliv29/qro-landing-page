@@ -4,8 +4,8 @@ export const Management = () => {
     return (
         <div className="container mt-5 d-flex flex-column justify-content-center">
             <div className="d-flex flex-column justify-content-center">
-                <button className="radius-39 bg-light-orange border-0 ff-bold text-black fs-6">QRO AGENDAR</button>
-                <p className="ff-extraBold text-black text-center">A gestão do seu negócio de forma ainda mais profissional!</p>
+                <button className="btn p-2 radius-39 bg-light-orange border-0 ff-bold text-black fs-6 align-self-center">QRO AGENDAR</button>
+                <p className="ff-extraBold text-black text-center mt-2">A gestão do seu negócio de forma ainda mais profissional!</p>
             </div>
             <div className="d-md-flex d-column">
                 <div>
