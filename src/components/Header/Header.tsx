@@ -1,19 +1,22 @@
 import { Navbar } from "../Navbar/Navbar"
+import { NavbarMobile } from "../Navbar/NavbarMobile"
 
 
 export const Header = () => {
     return (
         <div className="background-header">
             <Navbar />
-            <div className="container d-md-flex flex-column justify-content-center pt-5" style={{ paddingTop: window.screen.width < 767 ? 30 : 0 }}>
+            <NavbarMobile />
+            <div className="container d-md-flex flex-column justify-content-center">
                 <div className="d-md-flex align-items-center">
                     <div className="mt-5">
                         <p className="ff-extraBold fs-1 text-orange" style={{ lineHeight: '110%' }}>Muito mais <p className="ff-extraBold text-black fs-1">que uma agenda!</p></p>
                         <p className="ff-regular fs-6 text-gray">A mais completa plataforma de gestão de negócios
                             para clínicas veterinárias.</p>
                         <div className="gap-3 d-flex">
-                            <button className="radius-39 border-0 p-1 ff-bold fs-6 text-white bg-orange">Começar agora</button>
-                            <button className="radius-39 border-0 p-1 ff-bold fs-6 text-black">Ver Vídeo <img width={25} height={25} src="https://qria-tech.s3.amazonaws.com/Video.svg" alt="" /></button>
+                            <button className="radius-16 border-0 p-2 ff-bold fs-6 text-white bg-orange">Começar agora</button>
+                            <button className="radius-16 border-0 p-2 ff-bold fs-6 text-black">Ver Vídeo
+                                <img className="ms-2" width={25} height={25} src="https://qria-tech.s3.amazonaws.com/Video.svg" alt="" /></button>
                         </div>
                     </div>
                     <div className="">
