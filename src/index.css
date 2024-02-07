@@ -70,9 +70,48 @@ body {
     text-align: center;
 }
 
+.navbar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #FFBA69;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-mobile.scrolled {
+    background-color: #FFBA69;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.border-gray {
+    border-color: #D3D3D3 !important;
+}
+
 
 .background-feedback {
     background-image: url(https://qria-tech.s3.amazonaws.com/FeedbackBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgorange15 {
+    background-image: url(https://qria-tech.s3.amazonaws.com/BgOrange15.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
