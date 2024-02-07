@@ -2,7 +2,7 @@
 export const Blog = () => {
 
     return (
-        <div className="container text-center pt-5 mt-5 pb-5 mb-5">
+        <div className="container text-center pt-3 mt-5 pb-5 mb-5">
             <button className="border-0 radius-16 ff-bold fs-6" style={{ backgroundColor: '#FFB47C' }}>Blog</button>
             <p className="ff-extraBold fs-2 pt-3 text-black">Últimas postagens</p>
             <div className="d-md-flex pt-3">
