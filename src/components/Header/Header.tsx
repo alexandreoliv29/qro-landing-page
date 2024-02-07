@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="background-header pb-5">
             <Navbar />
             <NavbarMobile />
-            <div className="container d-md-flex flex-column justify-content-center pt-5">
+            <div id="home" className="container d-md-flex flex-column justify-content-center pt-5">
                 <div className="d-md-flex align-items-center mt-3">
                     <div className="mt-5">
                         <p className="ff-extraBold fs-1 text-orange" style={{ lineHeight: '110%' }}>Muito mais <p className="ff-extraBold text-black fs-1">que uma agenda!</p></p>

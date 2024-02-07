@@ -33,16 +33,13 @@ export const Navbar = () => {
                             <a className="nav-link nav-link text-white ff-bold fs-6" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white ff-bold fs-6" href="#">Sobre Nós</a>
+                            <a className="nav-link text-white ff-bold fs-6" href="#prices">Preços</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white ff-bold fs-6" href="#">Preços</a>
+                            <a className="nav-link text-white ff-bold fs-6" href="#blog">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white ff-bold fs-6" href="#">Blog</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-white ff-bold fs-6" href="#">Contato</a>
+                            <a className="nav-link text-white ff-bold fs-6" href="#footer">Contato</a>
                         </li>
                     </ul>
                 </div>

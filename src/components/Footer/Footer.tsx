@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="background-feedback">
+        <div id="footer" className="background-feedback">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 pt-3">
@@ -13,11 +13,11 @@ export const Footer = () => {
                         <div className="d-flex flex-column align-items-center align-items-md-start mb-4 mb-md-0">
                             <div className="d-flex gap-2">
                                 <img src="https://qria-tech.s3.amazonaws.com/mail.svg" alt="" />
-                                <p className="ff-regular text-white fs-6">techqria@gmail.com</p>
+                                <p className="ff-regular text-white fs-6 pt-3">techqria@gmail.com</p>
                             </div>
                             <div className="d-flex gap-2">
                                 <img src="https://qria-tech.s3.amazonaws.com/phone-call.svg" alt="" />
-                                <p className="ff-regular text-white fs-6">(61)98210-6396</p>
+                                <p className="ff-regular text-white fs-6 pt-3">(61)98210-6396</p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 export const Prices = () => {
     return (
-        <div style={{ backgroundColor: '#F8F8F8' }}>
+        <div id="prices" style={{ backgroundColor: '#F8F8F8' }}>
             <div className="container pt-5">
                 <div className="row">
                     <div className="col-md-4 mb-4 mb-md-0">

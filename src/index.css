@@ -49,6 +49,17 @@ body {
     border-radius: 16px;
 }
 
+@media screen and (max-width: 767px) {
+
+    #sidebar {
+      background-color: #FFB47C !important;
+    }
+  
+  }
+
+.zIndex {
+    z-index: 10 !important;
+  }
 
 .bg-light-orange {
     background-color: #FFB47C;
@@ -97,6 +108,7 @@ body {
     background-color: #FFBA69;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .border-gray {
     border-color: #D3D3D3 !important;
