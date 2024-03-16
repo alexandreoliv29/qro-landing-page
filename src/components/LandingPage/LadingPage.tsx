@@ -14,7 +14,6 @@ export const LandingPage = () => {
             <Header />
             <Management />
             <FreeText />
-            {/* <Powerful /> */}
             <Feedback />
             <Prices />
             <PlayNow />

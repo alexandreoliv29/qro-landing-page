@@ -129,6 +129,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.background-dogs {
+    background-image: url(https://qria-tech.s3.amazonaws.com/BgDogs.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (min-width: 767px) {
     .background-header {
         background-image: url(https://qria-tech.s3.amazonaws.com/backgroundTest.svg);
