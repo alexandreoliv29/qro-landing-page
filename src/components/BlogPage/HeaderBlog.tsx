@@ -1,14 +1,13 @@
-
-
 export const HeaderBlog = () => {
     return (
-        <div className="background-dogs pt-5">
-            <div className="d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
-                <img src="https://qria-tech.s3.amazonaws.com/LogoQroWhite.svg" alt="" />
-                <p className="ff-bold fs-1 text-white">Inspiration for travel by real people</p>
-                <p className="ff-regular fs-4 text-white">Book smart, travel simple</p>
-                <button>Start planning your trip</button>
+        <div className="position-relative">
+            <img className="img-fluid" src="https://qria-tech.s3.amazonaws.com/BgDogs.png" alt="" />
+            <div className="position-absolute top-50 start-50 translate-middle text-center text-white p-3">
+                <img className="img-fluid" src="https://qria-tech.s3.amazonaws.com/LogoQroWhite.svg" alt="" />
+                <p className="ff-bold fs-4 fs-md-1">Inspiration for travel by real people</p>
+                <p className="ff-regular fs-6 fs-md-4">Book smart, travel simple</p>
+                <button className="btn btn-primary fs-6 fs-md-4">Start planning your trip</button>
             </div>
         </div>
     )
-} 
+}
