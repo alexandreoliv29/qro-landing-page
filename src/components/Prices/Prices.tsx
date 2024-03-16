@@ -17,11 +17,12 @@ export const Prices = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-md-4 mb-4 mb-md-0">
                         <div className="p-4">
-                            <div className="d-flex justify-content-between mb-3">
+                            <div className="d-flex justify-content-between mb-3 gap-5">
                                 <p className="text-black ff-bold fs-2">Basic</p>
-                                <div className="p-2 radius-16 bg-white ff-bold text-gray fs-6">Save 30%</div>
+                                <button className="radius-16 border-0 ff-bold fs-6 bg-white text-gray">Save 30%</button>
                             </div>
                             <div className="border-top border-1 border-gray mb-3"></div>
                             <div className="container text-center">
@@ -39,9 +40,10 @@ export const Prices = () => {
                             <button className="border border-gray radius-16 ff-bold container-fluid">GET STARTED</button>
                         </div>
                     </div>
+
                     <div className="col-md-4">
                         <div className="p-4 bg-orange" style={{ borderRadius: 30 }}>
-                            <div className="d-flex justify-content-between mb-3">
+                            <div className="d-flex justify-content-between mb-3 gap-5">
                                 <p className="text-white ff-bold fs-2">Advanced</p>
                                 <button className="radius-16 border-0 ff-bold fs-6" style={{ backgroundColor: '#FFBA69' }}>Popular</button>
                             </div>
