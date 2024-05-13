@@ -24,7 +24,7 @@ export const FooterBlog = () => {
                         </div>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
-                        <p className="ff-bold text-white">Powered by QRO AGENDAR</p>
+                        <p className="ff-bold text-white">Desenvolvido por QRO AGENDAR</p>
                     </div>
                 </div>
             </div>
