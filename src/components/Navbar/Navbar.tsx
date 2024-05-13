@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
 
@@ -35,9 +36,9 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link text-white ff-bold fs-6" href="#prices">Preços</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-white ff-bold fs-6" href="/blog">Blog</a>
-                        </li>
+                        <Link className='nav-link scale fw-bold text-white' to="/blog">
+                            Blog
+                        </Link>
                         <li className="nav-item">
                             <a className="nav-link text-white ff-bold fs-6" href="#footer">Contato</a>
                         </li>

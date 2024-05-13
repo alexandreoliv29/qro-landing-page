@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Blog = () => {
 
     return (
@@ -11,9 +13,9 @@ export const Blog = () => {
                         <p className="ff-regular text-gray fs-6 text-md-start">15 de Novembro de 2022</p>
                         <p className="ff-bold text-black fs-2 text-md-start">10 Dicas Principais para Tornar Seu Produto SaaS Cativante</p>
                         <p className="ff-regular text-gray fs-6 text-md-start">É um fato estabelecido de que um leitor será distraído pelo conteúdo legível de uma página ao olhar para o layout. O objetivo de usar o Lorem Ipsum</p>
-                        <div className="d-md-flex">
-                            <a href="">Leia Mais</a>
-                        </div>
+                        <Link className='nav-link scale fw-bold text-black' to="/blog">
+                            Ir para o Blog
+                        </Link>
                     </div>
                 </div>
                 <div className="container bg-gray radius-16" style={{ marginTop: window.screen.width < 767 ? 40 : 0 }}>
@@ -22,9 +24,9 @@ export const Blog = () => {
                         <p className="ff-regular text-gray fs-6 text-md-start">15 de Novembro de 2022</p>
                         <p className="ff-bold text-black fs-2 text-md-start">Automatize a Geração de Relatórios com Saasup</p>
                         <p className="ff-regular text-gray fs-6 text-md-start">É um fato estabelecido de que um leitor será distraído pelo conteúdo legível de uma página ao olhar para o layout. O objetivo de usar o Lorem Ipsum</p>
-                        <div className="d-md-flex">
-                            <a href="">Leia Mais</a>
-                        </div>
+                        <Link className='nav-link scale fw-bold text-black' to="/blog">
+                           Ir para o Blog
+                        </Link>
                     </div>
                 </div>
             </div>
